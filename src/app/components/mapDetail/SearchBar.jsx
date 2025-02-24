@@ -149,9 +149,9 @@ const SearchBar = () => {
             overflowY: "auto",
           }}
         >
-          <Typography variant="h6" sx={{ marginBottom: 2 }}>
+          {/* <Typography variant="h6" sx={{ marginBottom: 2 }}>
             Products from {countryNames[page - 1]}
-          </Typography>
+          </Typography> */}
           <List>
             {productsForCurrentPage.map((product, index) => (
               <ListItem
