@@ -1,0 +1,14 @@
+:root {
+  --primary:#F0FDFA; /*6bbd7c; /*0F717A;*/
+  --second_color:  rgba(39, 189, 25, 0.719);  /*19404C;*/
+  --third_color: #3BAA9F;
+  --bg_color: #f1f1f1;
+  --exel_color: #1d6f42;
+  --upload_bg: #f3f3f3;
+  --button_bg: #f5f3f3;
+  --dark_green: #0de6a8;
+  --highlight:#68fced ;
+  --border:#2AAAB5;
+  --sideBar:"linear-gradient(to bottom, #007A7F, #00B2B3)"; /*#2aaab5;*/
+  box-sizing: border-box;
+}

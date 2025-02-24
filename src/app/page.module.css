@@ -1,0 +1,21 @@
+.leaflet-container {  
+    height: 1vh; 
+    width: 10%; 
+}  
+
+.map-container {  
+    width: 100%;  
+  }  
+  
+  @media (max-width: 600px) {  
+    .map-container {  
+      height: 50%; /* Height for xs */  
+    }  
+  }  
+  
+  @media (min-width: 601px) {  
+    .map-container {  
+      height: 80%; /* Height for md and above */  
+    }  
+  }  
+  

@@ -1,0 +1,101 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+/* استایل اسکرول کلی */
+::-webkit-scrollbar {
+  width: 8px; /* عرض اسکرول عمودی */
+  height: 8px; /* ارتفاع اسکرول افقی */
+}
+
+/* استایل قسمت قابل جابجایی اسکرول */
+::-webkit-scrollbar-thumb {
+  background-color: #c3c9c5; /* رنگ اسکرول */
+  border-radius: 10px; /* گوشه‌های گرد */
+  border: 3px solid #c3c9c5; /* حاشیه اطراف اسکرول */
+}
+
+/* استایل قسمت پس‌زمینه اسکرول */
+::-webkit-scrollbar-track {
+  background-color: #e7e7e7; /* رنگ پس‌زمینه */
+  border-radius: 15px; /* گوشه‌های گرد */
+}
+
+/* تغییر استایل اسکرول در زمان hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #c3c9c5; /* تغییر رنگ اسکرول هنگام hover */
+}
+body {
+  margin: 0;
+  background-color: #f3f3f3;
+}
+
+@font-face {
+  font-family: "Myname";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Segoe UI Bold"), local("SegoeUI-bold"), local("segoeuib");
+}
+@font-face {
+  font-family: "Myname";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Segoe UI Semibold"), local("SegoeUI-Semibold");
+}
+@font-face {
+  font-family: "Myname";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Segoe UI"), local("SegoeUI");
+}
+@font-face {
+  font-family: "Myname";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Segoe UI Light"), local("SegoeUI-Light");
+}
+
+/* ... */
+
+BODY {
+  font-family: "Myname";
+}
+
+.boldtext {
+  font-family: "Segoe UI";
+  font-weight: 700;
+}
+
+.leaflet-control-zoom,
+.leaflet-bar,
+.leaflet-control,
+.leaflet-control-attribution,
+.leaflet-control {
+  display: none;
+}
